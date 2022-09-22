@@ -1,0 +1,711 @@
+@font-face{
+    font-family: "cactus-jack";
+    src: url(./fonts/Cactus\ Jack.ttf);
+}
+body{
+    /* background-image: url(https://th.bing.com/th/id/R.a2f48517f0bc9f413da790831cffa0bd?rik=ZZrMO5AN78k4dQ&pid=ImgRaw&r=0);
+    background-attachment: scroll; */
+    background: rgb(11,55,56);
+background: linear-gradient(93deg, rgba(11,55,56,1) 0%, rgba(9,44,41,1) 99%);
+}
+.navbar img{
+    width: 150px;
+    filter: drop-shadow(1px 3px 6px white);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-family: "cactus-jack";
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.bar ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 50px;
+    align-items: center;
+}
+.bar a{
+    color: white;
+    text-decoration: none;
+    filter: drop-shadow(1px 1px 4px #fffb00);
+}
+.bar :hover {
+    color: aqua;
+    transition: 0.2s;
+    letter-spacing: 3px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1900px;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://th.bing.com/th/id/R.443933b126f42d980cc6c311c89d9e60?rik=UNSqfHVgoOK1Uw&pid=ImgRaw&r=0);
+    border-radius: 100%;
+    opacity: 0.8;
+    filter: drop-shadow(8px 8px 50px white);
+    flex-wrap: wrap;
+}
+
+.carrd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background: rgb(67,147,174);
+    background: linear-gradient(90deg, rgba(67,147,174,1) 0%, rgba(12,19,27,1) 50%, rgba(239,69,34,1) 100%);
+    border-radius: 20%;
+    flex-wrap: wrap;
+}
+.carrd:hover{
+    transition: 0.5s;
+    padding: 10px;
+}
+.carrd h2{
+    width: 50px;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: 'cactus-jack';
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "cactus-jack";
+    font-size: 90px;
+    color: aliceblue;
+    filter: drop-shadow(3px 3px 5px brown);
+    margin-bottom: 200px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: "cactus-jack";
+    font-size: 70px;
+    font-weight: 900;
+    color: orange;
+    filter: drop-shadow(3px 3px 5px red);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 300px;
+    flex-wrap: wrap;
+}
+.shoes{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: rgb(102,139,197);
+    background: linear-gradient(169deg, rgba(102,139,197,1) 0%, rgba(0,0,0,1) 100%);
+    border-radius: 80px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.shoes2{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: rgb(101,85,75);
+    background: linear-gradient(169deg, rgba(101,85,75,1) 0%, rgba(125,52,54,1) 50%, rgba(0,0,0,1) 100%);
+    border-radius: 80px;
+    flex-wrap: wrap;
+}
+.shoes3{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: rgb(101,85,75);
+    background: linear-gradient(169deg, rgba(101,85,75,1) 0%, rgba(0,0,0,1) 100%);
+    border-radius: 80px;
+    flex-wrap: wrap;
+}
+
+.shoes3:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+.shoes3 img:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    content: url(./low.png);
+}
+.shoes2:hover{
+    transition: 0.5s;
+    padding: 10px;
+}
+.shoes2 img:hover{
+    transition: 0.5s;
+    content: url(./high.png);
+    margin-top: 80px;
+}
+.shoes:hover{
+    transition: 0.5s;
+    padding: 10px;
+}
+.shoes img:hover{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    transition: 0.5s;
+    content: url(./blue.png);
+}
+.shoes img{
+    width: 100%;
+}
+.shoes2 img{
+    width: 100%;
+}
+.shoes3 img{
+    width: 100%;
+}
+
+.container-cactus{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cactus{
+    display: flex;
+    background: rgb(102,139,197);
+    background: linear-gradient(169deg, rgba(102,139,197,1) 0%, rgba(0,0,0,1) 100%);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    flex-wrap: wrap;
+}
+.cactus2{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: rgb(101,85,75);
+    background: linear-gradient(169deg, rgba(101,85,75,1) 0%, rgba(125,52,54,1) 50%, rgba(0,0,0,1) 100%);
+    border-radius: 10%;
+    flex-wrap: wrap;
+}
+.cactus3{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: rgb(101,85,75);
+    background: linear-gradient(169deg, rgba(101,85,75,1) 0%, rgba(0,0,0,1) 100%);
+    border-radius: 10%;
+    flex-wrap: wrap;
+}
+.cactus4{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: rgb(0,0,0);
+    background: linear-gradient(169deg, rgba(0,0,0,1) 0%, rgba(76,75,47,1) 50%, rgba(0,0,0,1) 100%);
+    border-radius: 10%;
+    flex-wrap: wrap;
+}
+.cactus4 img{
+    margin-top: 30px;
+    height: 200px;
+}
+.cactus5{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: rgb(201,189,179);
+    background: linear-gradient(169deg, rgba(201,189,179,1) 0%, rgba(88,96,104,1) 50%, rgba(0,0,0,1) 100%);
+    border-radius: 10%;
+    flex-wrap: wrap;
+}
+.cactus5 img{
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+}
+.container-cactus img{
+    width: 100%;
+}
+
+.cactus:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.cactus2:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+.cactus3:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+.cactus4:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.cactus5:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.cactus img:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    content: url(./blue.png);
+}
+.cactus2 img:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    content: url(./high.png);
+}
+.cactus3 img:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    content: url(./low.png);
+}
+.cactus4 img:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    content: url(./j6\ left.png);
+    height: 300px;
+}
+
+.cactus5 img:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    margin-bottom: 80px;
+    content: url(./dunk\ left.png);
+}
+
+.logo-astro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-astro img{
+    width: 50%;
+    filter: drop-shadow(2px 3px 8px black);
+}
+
+.container-astro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.astro{
+    display: flex;
+    background: rgb(0,0,0);
+    background: linear-gradient(198deg, rgba(0,0,0,1) 0%, rgba(164,161,161,1) 50%, rgba(10,10,10,1) 100%);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    flex-wrap: wrap;
+}
+.astro2{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: rgb(33,67,209);
+background: linear-gradient(281deg, rgba(33,67,209,1) 0%, rgba(254,145,49,1) 50%, rgba(33,67,209,1) 100%);
+    border-radius: 10%;
+    flex-wrap: wrap;
+}
+.astro2 img{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.astro3{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: rgb(19,19,19);
+background: linear-gradient(158deg, rgba(19,19,19,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 10%;
+    flex-wrap: wrap;
+}
+.astro4{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: rgb(19,19,19);
+background: linear-gradient(158deg, rgba(19,19,19,1) 0%, rgba(113,113,113,1) 50%, rgba(0,0,0,1) 100%);
+    border-radius: 10%;
+    flex-wrap: wrap;
+}
+.astro5{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: rgb(201,189,179);
+    background: linear-gradient(169deg, rgba(201,189,179,1) 0%, rgba(88,96,104,1) 50%, rgba(0,0,0,1) 100%);
+    border-radius: 10%;
+    flex-wrap: wrap;
+}
+.container-astro img{
+    width: 100%;
+}
+
+.astro:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.astro2:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+.astro3:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+.astro4:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.astro5:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.astro img:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    content: url(./hoodie\ astro\ back.png);
+}
+.astro2 img:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    content: url(./msg\ back.png);
+}
+.astro3 img:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    content: url(./cap\ back.png);
+}
+.astro4 img:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    content: url(./astro\ shirt\ back.png);
+    height: 300px;
+}
+
+.astro5 img:hover{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    content: url(./astro\ pants\ back.png);
+}
+
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.container-footer h3{
+    color: white;
+    filter: drop-shadow(3px 2px 8px black);
+    font-size: xx-large;
+    text-decoration: underline;
+
+}
+
+.container-footer p{
+    filter: drop-shadow(1px 1px 3px purple);
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    gap: 350px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gif{
+    width: 30%;
+    border-radius: 30%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.logo img{
+    border-radius: 50%;
+}
+
+@media (max-width: 1600px){
+    .carrd{
+        width: 30%;
+    }
+    .carrd img{
+        width: 100%;
+    }
+    .container-cactus{
+        display: flex;
+        gap: 20px;
+    }
+    .container-astro{
+        display: flex;
+        gap: 20px;
+    }
+    .contact-container{
+        gap: 250px;
+    }
+}
+
+@media (max-width: 1250px){
+    .shoes{
+        width: 300px;
+        height: 300px;
+    }
+    .shoes2{
+        width: 300px;
+        height: 300px;
+    }
+    .shoes3{
+        width: 300px;
+        height: 300px;
+    }
+    .cactus{
+        width: 200px;
+        height: 200px;
+    }
+    .cactus2{
+        width: 200px;
+        height: 200px;
+    }
+    .cactus3{
+        width: 200px;
+        height: 200px;
+    }
+    .cactus4{
+        width: 200px;
+        height: 200px;
+    }
+    .cactus4 img{
+        margin-top: 30px;
+        height: 150px;
+    }
+    .cactus5{
+        width: 200px;
+        height: 200px;
+    }
+    .cactus5 img{
+        margin-top: 50px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .astro{
+        width: 200px;
+        height: 200px;
+    }
+    .astro2{
+        width: 200px;
+        height: 200px;
+    }
+    .astro2 img{
+        margin-left: 20px;
+    }
+    .astro3{
+        width: 200px;
+        height: 200px;
+    }
+    .astro4{
+        width: 200px;
+        height: 200px;
+    }
+    .astro5{
+        width: 200px;
+        height: 200px;
+    }
+    .contact-container{
+        gap: 120px;
+    }
+}
+
+@media (max-width: 1100px){
+    .cactus{
+        width: 150px;
+        height: 150px;
+    }
+    .cactus2{
+        width: 150px;
+        height: 150px;
+    }
+    .cactus3{
+        width: 150px;
+        height: 150px;
+    }
+    .cactus4{
+        width: 150px;
+        height: 150px;
+    }
+    .cactus4 img{
+        margin-top: 30px;
+        height: 100px;
+    }
+    .cactus5{
+        width: 150px;
+        height: 150px;
+    }
+    .cactus5 img{
+        margin-top: 50px;
+        width: 150px;
+        height: 100px;
+    }
+
+    .astro{
+        width: 150px;
+        height: 150px;
+    }
+    .astro2{
+        width: 150px;
+        height: 150px;
+    }
+    .astro2 img{
+        margin-left: 10px;
+    }
+    .astro3{
+        width: 150px;
+        height: 150px;
+    }
+    .astro4{
+        width: 150px;
+        height: 150px;
+    }
+    .astro5{
+        width: 150px;
+        height: 150px;
+    }
+    .contact-container{
+        gap: 60px;
+    }
+}
+
+@media (max-width: 950px){
+    .shoes{
+        width: 250px;
+        height: 250px;
+    }
+    .shoes2{
+        width: 250px;
+        height: 250px;
+    }
+    .shoes3{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 850px){
+    h1{
+        font-size: 60px;
+    }
+    .container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .container-cactus{
+        flex-direction: column;
+    }
+    .container-astro{
+        flex-direction: column;
+    }
+    .contact-container{
+        gap: 200px;
+    }
+}
+
+@media (max-width: 750px){
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    .contact-container{
+        gap: 60px;
+    }
+}
