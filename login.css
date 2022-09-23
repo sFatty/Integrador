@@ -1,0 +1,121 @@
+@font-face{
+    font-family: "cactus-jack";
+    src: url(./fonts/Cactus\ Jack.ttf);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background: rgb(11,55,56);
+    background: linear-gradient(93deg, rgba(11,55,56,1) 0%, rgba(9,44,41,1) 99%);
+}
+
+.navbar img{
+    width: 150px;
+    filter: drop-shadow(1px 3px 6px white);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-family: "cactus-jack";
+    font-size: xx-large;
+    font-weight: 900;
+    flex-wrap: wrap;
+}
+.bar ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 50px;
+    align-items: center;
+}
+.bar a{
+    color: white;
+    text-decoration: none;
+    filter: drop-shadow(1px 1px 4px #fffb00);
+}
+.bar :hover {
+    color: aqua;
+    transition: 0.2s;
+    letter-spacing: 3px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container img{
+    width: 300px;
+
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+    background: rgb(17,17,17);
+background: linear-gradient(138deg, rgba(17,17,17,1) 0%, rgba(113,55,1,1) 50%, rgba(17,17,17,1) 100%);
+    box-shadow: 0px 0px 25px 10px rgb(0 0 0 / 62%);
+    flex-wrap: wrap;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: "cactus-jack";
+    font-size: 30px;
+    flex-direction: column;
+    margin-bottom: 150px;
+    gap: 10px;
+    color: #fffb00;
+    filter: drop-shadow(0px 0px 8px red);
+}
+
+#user{
+    border: none;
+    border-style: none;
+    border-radius: 7px;
+    font-weight: 900;
+}
+#pass{
+    border: none;
+    border-style: none;
+    border-radius: 7px;
+    font-weight: 900;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 0.2s;
+    color: red;
+    letter-spacing: 1px;
+}
+
+form a{
+    margin-top: 20px;
+    text-decoration: none;
+    color:white
+}
+
+form a:hover{
+    transition: 0.2s;
+    letter-spacing: 2px;
+    color: red;
+
+}

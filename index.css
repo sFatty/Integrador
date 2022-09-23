@@ -2,11 +2,12 @@
     font-family: "cactus-jack";
     src: url(./fonts/Cactus\ Jack.ttf);
 }
+::-webkit-scrollbar{
+    display: none;
+}
 body{
-    /* background-image: url(https://th.bing.com/th/id/R.a2f48517f0bc9f413da790831cffa0bd?rik=ZZrMO5AN78k4dQ&pid=ImgRaw&r=0);
-    background-attachment: scroll; */
     background: rgb(11,55,56);
-background: linear-gradient(93deg, rgba(11,55,56,1) 0%, rgba(9,44,41,1) 99%);
+    background: linear-gradient(93deg, rgba(11,55,56,1) 0%, rgba(9,44,41,1) 99%);
 }
 .navbar img{
     width: 150px;
