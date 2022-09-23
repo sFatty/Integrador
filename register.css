@@ -119,3 +119,24 @@ form a:hover{
     color: red;
 
 }
+
+@media (max-width: 500px){
+    .navbar{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .navbar img{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 130px;
+    }
+
+    .bar ul{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+}

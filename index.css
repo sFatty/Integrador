@@ -735,11 +735,21 @@ background: linear-gradient(158deg, rgba(19,19,19,1) 0%, rgba(113,113,113,1) 50%
         margin-bottom: 100px;
         flex-wrap: wrap;
     }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .navbar img{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 130px;
+    }
+
     .bar ul{
         display: flex;
         flex-direction: column;
-        list-style: none;
-        text-decoration: none;
         gap: 50px;
         align-items: center;
     }
